@@ -217,7 +217,7 @@ model.compile(loss='categorical_crossentropy', optimizer='adam', metrics=['accur
 train_history=model.fit(x=x_train, 
                         y=y_train_onehot,
                         validation_data=(x_val, y_val_onehot), 
-                        epochs=700, 
+                        epochs=500, 
                         batch_size=64,
                         shuffle=True,
                         verbose=1)
