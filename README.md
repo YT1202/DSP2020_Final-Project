@@ -1,9 +1,4 @@
 # DSP2020_Final project
-Name: 吳奕霆
-
-Student_ID: R08943166
-
-Department: 電子所
 
 &nbsp;
 
