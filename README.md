@@ -62,7 +62,7 @@ model.h5
 
     import keras
     ```
-    If **_Using plaidml.keras.backend backend._** appears, it means the execution is successful.
+    If `Using plaidml.keras.backend backend.` appears, it means the execution is successful.
     
     Next, you can use AMD GPU to train it !
     
