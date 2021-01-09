@@ -33,7 +33,7 @@ Training.py
 
 - When **Training.py** is successfully executed and completed, the **Pretrained-Model** can be obtained :
 ```
-Model.h5
+model.h5
 ```
 
 - Note:
@@ -51,16 +51,16 @@ Testing.py
 
 - When **Testing.py** is successfully executed and completed, the **Prediction result** can be obtained :
 ```
-Submission_r08943166.csv
+Submission.csv
 ```
 
 - Note:
-  * Before testing, you should ensure **Dataset** , **Model.h5** and **Testing.py** are in the same path.
+  * Before testing, you should ensure **Dataset** , **model.h5** and **Testing.py** are in the same path.
   * For testing, it will load dataset and preprocess it .
     
     Then, the pretrained-model will be loaded, and using it to do the validation and prediction.
     
-    Finally, **Submission_r08943166.csv**(prediction result) will be obtained, and it conforms to the submited format.
+    Finally, **Submission.csv**(prediction result) will be obtained, and it conforms to the submited format.
 
 &nbsp;
 
