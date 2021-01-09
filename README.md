@@ -52,7 +52,7 @@ model.h5
   ```
   plaidml-setup
   ```
-  Choose which accelerator you'd like to use,
+  Choose which accelerator you'd like to use.
   
     Then, add the following code at the beginning of **Train.py** ,
     ```
