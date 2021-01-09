@@ -243,7 +243,7 @@ show_train_history(train_history,'loss','val_loss')
 # =============================================================================
 # Step_7  用測試集檢驗模型
 scores = model.evaluate(x_val, y_val_onehot)
-print('scores= ', scores[0])
+print('score= ', scores[0])
 print('accurancy= ', scores[1])
 # =============================================================================
 
