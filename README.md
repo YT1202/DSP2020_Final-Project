@@ -71,7 +71,7 @@ model.h5
 &nbsp;
 
 ## Testing
-- The code of training is : 
+- The code of testing is : 
 ```
 Testing.py
 ```
@@ -85,7 +85,7 @@ Submission.csv
   * Before testing, you should ensure **Dataset** , **model.h5** and **Testing.py** are in the same path.
   * For testing, it will load dataset and preprocess it .
     
-    Then, the pretrained-model will be loaded, and using it to do the validation and prediction.
+    Then, the pretrained-model will be loaded, and using it to obtain the prediction.
     
     Finally, **Submission.csv**(prediction result) will be obtained, and it conforms to the submited format.
 
