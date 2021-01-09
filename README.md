@@ -41,7 +41,7 @@ model.h5
   * For training, if using CPU to train will spend at least 10000(s) because its epochs=500 and time~22s/epoch.
   * The size of model is **12.17MB** (<20MB)
 
-- `AMD GPU :`
+- **AMD GPU :**
   * Actually, the author used AMD GPU(**RX570**) to train the model, 
     
     but the setting is complicated, so it's recommended to use CPU or Nvidia GPU.
@@ -66,7 +66,7 @@ model.h5
     
     Next, you can use AMD GPU to train it !
     
-    - [] **Please confirm that your `keras==2.2.4` in order to use `Plaidml`.**
+    - [ ] **Please confirm that your `keras==2.2.4` in order to use `Plaidml`.**
 
 &nbsp;
 
