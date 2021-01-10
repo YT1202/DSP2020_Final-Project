@@ -5,8 +5,9 @@
 ### Outline
 - Prerequisites
 - Datasets
-- Train
-- Test
+- Training
+- Testing
+- Model
 
 &nbsp;
 
@@ -88,6 +89,12 @@ Submission.csv
     Then, the pretrained-model will be loaded, and using it to obtain the prediction.
     
     Finally, **Submission.csv**(prediction result) will be obtained, and it conforms to the submited format.
+    
+&nbsp;
+
+## Model
+- Download a pre-trained neural network : https://drive.google.com/file/d/1UTZJdPyfu0fVk5ZTd8FLh8cgRQdlQLaS/view?usp=sharing
+
 
 &nbsp;
 
